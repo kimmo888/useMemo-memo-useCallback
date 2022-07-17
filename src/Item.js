@@ -3,7 +3,7 @@ import React, { memo, useEffect } from 'react';
 const Item = memo(({ user,handleDelete }) => {
 
     useEffect(() => {
-       //console.log('Item render ' + user.name);
+        console.log('Item render ' + user.name);
     })
 
     return (
